@@ -1,0 +1,104 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.D04-02, .Q07-02, .D11-02, .Q14-02, .D18-02, .Q21-02, .D25-02, .Q28-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: BLUE; */
+    /* width: 250px; */
+} 
+
+
+
+
+.escala {
+    display: flex;
+    /* background-color: red; */
+    margin-bottom: 30px;
+}
+
+.coluna1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: yellow; */
+    margin-right: 20px;
+}
+
+.coluna2{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+hr {
+   width: 2px;
+	border:transparent;	
+	height: 720px;
+	background:black;
+
+}
+
+table {
+    
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px gray;
+    max-width: 150px; 
+    
+    width: 250px;
+    height: 120px;
+    min-width: auto;
+   
+    
+}
+
+td {
+    border: 1px solid ;
+}
+
+.trb {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.mes {
+    background-color: black;
+    color: white;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+}
